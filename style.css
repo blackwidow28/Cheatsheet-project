@@ -9,26 +9,26 @@ body {
 h1 {
     background-color: whitesmoke;
     color: goldenrod;
-    font-size: 50px;
+    font-size: 65px;
     padding: 15px;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     color: goldenrod;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: goldenrod;
 }
 
 table {
     margin: 0 auto;
-    border: medium solid white;
+   /* border: medium solid white; */
     
 }
 
@@ -37,6 +37,18 @@ td, th {
     padding: 10px;
 }
 
-thead {
+td {
+    font-size: 20px;
+    font-family: Monospace;
     
+}
+
+.table-title {
+    background-color: darkcyan;
+}
+
+.format {
+    color: goldenrod;
+    font-size: 35px;
+    text-align: center;
 }
